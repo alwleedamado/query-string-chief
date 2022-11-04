@@ -1,0 +1,23 @@
+{
+  "name": "query-string-chief",
+  "version": "1.0.0",
+  "description": "An open-source Json Api complient library to work with query string. Parsing it to working with different backend technology",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alwleedamado/query-string-chief.git"
+  },
+  "keywords": [
+    "query-string",
+    "parsing"
+  ],
+  "author": "Alwaleed Ahmed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alwleedamado/query-string-chief/issues"
+  },
+  "homepage": "https://github.com/alwleedamado/query-string-chief#readme"
+}

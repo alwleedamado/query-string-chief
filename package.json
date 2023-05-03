@@ -1,0 +1,31 @@
+{
+  "name": "query-string-chief",
+  "version": "1.0.0",
+  "description": "Online learning platform",
+  "main": "src/index.js",
+  "scripts": {
+    "clean": "rm -rf target",
+    "build": "node scripts/build.mjs",
+    "build:prod": "node scripts/build.mjs prod",
+    "server": "node scripts/server.mjs",
+    "test": "npm run lint && web-test-runner",
+    "test:watch": "web-test-runner --watch",
+    "lint": "eslint src --fix",
+    "deps:list": "ncu",
+    "deps:up": "ncu -u"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alwleedamado/query-string-chief.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alwleedamado/query-string-chief/issues"
+  },
+  "homepage": "https://github.com/alwleedamado/query-string-chief#readme",
+  "dependencies": {
+    "esbuild": "0.17.18"
+  }
+}
